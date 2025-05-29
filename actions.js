@@ -9,7 +9,7 @@
       const painel = document.getElementById('kenai-painel');
       painel.innerText += '\nAção iniciada! Bora com tudo 🔥';
 
-      // Exemplo de ação simples: muda a cor do painel depois de 2 seg
+      // Depois de 2 seg muda a cor do painel
       setTimeout(() => {
         painel.style.backgroundColor = '#4caf50';
         painel.innerText += '\nCor do painel mudou! 🎉';
